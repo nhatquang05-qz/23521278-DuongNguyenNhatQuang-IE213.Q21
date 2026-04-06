@@ -35,3 +35,21 @@ Tiến hành cài đặt MongoDB và thực hiện một số thao tác CRUD cơ
 **Trạng thái:** Đã hoàn thành tất cả nội dung.
 
 ![Lab02](./images/lab02.png)
+
+---
+
+## Lab03
+**Nội dung:** Hoàn thiện backend cho ứng dụng minh hoạ. Xây dựng các chức năng Thêm, Sửa, Xoá (CRUD) cho đánh giá (review) phim. Viết API lấy thông tin chi tiết của một bộ phim (kèm các review) và danh sách các nhãn dán xếp hạng (rating).
+
+**Cách chạy:** 1. Mở terminal, điều hướng vào thư mục backend: `cd Lab03/movie-reviews/backend`.  
+2. Chạy lệnh `npm install` để cài đặt các dependency.  
+3. Đảm bảo file `.env` chứa chuỗi kết nối database chính xác.  
+4. Chạy lệnh `npm start` để khởi động máy chủ web.  
+5. Sử dụng Postman để kiểm thử các API:
+   - **Review (POST, PUT, DELETE):** Gửi request tới `http://localhost:3000/api/v1/movies/review` kèm theo Body JSON.
+   - **Chi tiết phim (GET):** Gửi request tới `http://localhost:3000/api/v1/movies/id/<movie_id>`.
+   - **Ratings (GET):** Gửi request tới `http://localhost:3000/api/v1/movies/ratings`.
+
+**Trạng thái:** Đã hoàn thành tất cả nội dung.
+
+![Lab03](./images/lab03.png)
